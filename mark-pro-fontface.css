@@ -1,0 +1,94 @@
+/* ============================================================
+   MARK PRO — @font-face para uso no Stripo
+   Marca: Hidratei / Grupo Ei Beleza
+   Origem: Design Ei Beleza (2025) > B2C > Hidratei > Marca > Fontes > Mark Pro (principal)
+
+   COMO USAR (repositório: amandahidratei/fontehidra):
+   1. Os arquivos .woff/.woff2 já foram convertidos e subidos na RAIZ do
+      repositório (sem subpasta), com o nome que o Transfonter gerou —
+      com hífen antes do peso (ex: MarkPro-Bold.woff2, MarkPro.woff2 pro
+      peso base). As URLs abaixo já batem com esses nomes exatos.
+   2. Apague o arquivo "mark-pro-fontface (1).css" do repositório (nome com
+      espaço/parênteses dá problema em URL) e suba ESTE arquivo no lugar,
+      direto na raiz, com um nome limpo: mark-pro-fontface.css
+   3. A URL final pra colar no Stripo fica:
+      https://cdn.jsdelivr.net/gh/amandahidratei/fontehidra@main/mark-pro-fontface.css
+      Já sai com HTTPS + CORS liberado via jsDelivr — não precisa configurar
+      mais nada.
+   4. No Stripo: Style Options > Fonts > Custom > "+" — crie UMA entrada
+      para CADA peso (8 no total), todas apontando pra URL deste mesmo
+      arquivo CSS, mudando o campo "font-family" de cada entrada para o
+      valor correspondente abaixo (ex: "Mark Pro Bold", "Mark Pro Black"...).
+   5. Clique em "Connect" em cada uma, recarregue o Stripo e aplique nos
+      blocos de texto.
+
+   OBS: cada peso tem um font-family PRÓPRIO (em vez de font-weight
+   numérico numa família só), porque a maioria dos clientes de e-mail —
+   Outlook incluso — ignora font-weight em fontes customizadas. Dando um
+   nome de família exclusivo pra cada peso, o peso certo aparece mesmo
+   assim, independente do cliente de e-mail.
+   ============================================================ */
+
+@font-face {
+  font-family: 'Mark Pro ExtraLight';
+  src: url('https://cdn.jsdelivr.net/gh/amandahidratei/fontehidra@main/MarkPro-ExtraLight.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/amandahidratei/fontehidra@main/MarkPro-ExtraLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mark Pro Light';
+  src: url('https://cdn.jsdelivr.net/gh/amandahidratei/fontehidra@main/MarkPro-Light.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/amandahidratei/fontehidra@main/MarkPro-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mark Pro Book';
+  src: url('https://cdn.jsdelivr.net/gh/amandahidratei/fontehidra@main/MarkPro-Book.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/amandahidratei/fontehidra@main/MarkPro-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mark Pro';
+  src: url('https://cdn.jsdelivr.net/gh/amandahidratei/fontehidra@main/MarkPro.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/amandahidratei/fontehidra@main/MarkPro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mark Pro Medium';
+  src: url('https://cdn.jsdelivr.net/gh/amandahidratei/fontehidra@main/MarkPro-Medium.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/amandahidratei/fontehidra@main/MarkPro-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mark Pro Bold';
+  src: url('https://cdn.jsdelivr.net/gh/amandahidratei/fontehidra@main/MarkPro-Bold.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/amandahidratei/fontehidra@main/MarkPro-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mark Pro Heavy';
+  src: url('https://cdn.jsdelivr.net/gh/amandahidratei/fontehidra@main/MarkPro-Heavy.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/amandahidratei/fontehidra@main/MarkPro-Heavy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mark Pro Black';
+  src: url('https://cdn.jsdelivr.net/gh/amandahidratei/fontehidra@main/MarkPro-Black.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/amandahidratei/fontehidra@main/MarkPro-Black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
